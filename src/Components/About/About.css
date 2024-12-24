@@ -1,0 +1,54 @@
+.about .about-container{
+    padding: 30px;
+    text-align: center;
+}
+
+.about .about-container h2{
+    margin: 45px 0;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.about .about-container .display{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.about .about-container .display .info p{
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.about .about-container .image img{
+    border-radius: 30px;
+}
+
+@media (max-width:760px) {
+    .about .about-container{
+        padding: 10px;
+    }
+
+    .about .about-container h2{
+        margin: 25px 0;
+        font-size:18px;
+    }
+
+    .about .about-container .display{
+        display: grid;
+    }
+
+    .about .about-container .image img{
+        order: 0;
+    }
+
+    .about .about-container .display .info{
+        order: 1;
+    }
+
+    .about .about-container .display .info p{
+        font-size: 16px;
+    }
+}

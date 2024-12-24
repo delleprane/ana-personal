@@ -1,0 +1,83 @@
+.plans .plans-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.plans .plans-container h2{
+    margin: 50px 0;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.plans .plans-container .metods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+
+.plans .plans-container .metods .metod {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a5399;
+    border-radius: 20px;
+}
+
+.plans .plans-container .metods .metod .info h3{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.plans .plans-container .metods .metod .info p{
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.plans .plans-container .metods .metod img {
+    width: 100px;
+    margin: 50px 0;
+}
+
+.plans .plans-container .metods .metod .button {
+   margin: 60px 0;
+}
+
+@media (max-width:760px) {
+    .plans .plans-container {
+        padding: 10px;
+    }
+
+    .plans .plans-container h2{
+        font-size: 18px;
+    }
+
+    .plans .plans-container .metods {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
+    }
+
+    .plans .plans-container .metods .metod {
+        padding: 10px;
+    }
+
+    .plans .plans-container .metods .metod .info h3{
+        font-size: 18px;
+    }
+
+    .plans .plans-container .metods .metod .info p{
+        font-size: 16px;
+    }
+
+    .plans .plans-container .metods .metod img {
+        width: 80px;
+    }
+
+    .plans .plans-container .metods .metod .button {
+        margin: 40px 0;
+     }
+}
