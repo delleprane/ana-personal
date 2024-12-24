@@ -1,0 +1,39 @@
+.hero .hero-container {
+    padding: 30px;
+    text-align: -webkit-center;
+}
+
+.hero .hero-container h1 {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.hero .hero-container h2 {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.hero .hero-container .image {
+    margin: 35px 0;
+}
+
+.hero .hero-container .button {
+    margin: 35px 0;
+}
+
+@media(max-width: 750px){
+    .hero .hero-container {
+        padding:10px;
+    }
+
+    .hero .hero-container h1 {
+        font-size:18px;
+    }
+
+    .hero .hero-container h2{
+        font-size:16px;
+    }
+}
+  

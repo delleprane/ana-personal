@@ -1,0 +1,189 @@
+{
+    "background":"#0c0b29",
+    "Menu": {
+        "logo": "/images/logos/logo_colored.webp",
+        "textColor": "#ffffff",
+        "navigation": [
+            {
+                "name": "Home",
+                "id": "home"
+            },
+            {
+                "name": "Sobre",
+                "id": "sobre"
+            },
+            {
+                "name": "Planos",
+                "id": "planos"
+            },
+            {
+                "name": "Reviews",
+                "id": "reviews"
+            },
+            {
+                "name": "Aula",
+                "id": "aula"
+            },
+            {
+                "name": "Contato",
+                "id": "contato"
+            }
+        ]
+    },
+    "Hero": {
+        "title": "Transforme Seu Corpo e Sua Vida com Treinos Personalizados",
+        "subtitle": "Confira as histórias inspiradoras dos nossos clientes e como eles alcançaram suas metas",
+        "principla-image": "/images/banners/woman.webp",
+        "secondary-image": "/images/banners/circle.webp",
+        "textColor": "#ffffff",
+        "button": {
+            "background": "#daa520",
+            "title": "Agende sua Aula Gratuita",
+            "link": "",
+            "target": "_blank",
+            "textColor": "#0c0b29"
+        }
+    },
+    "About": {
+        "textColor": "#ffffff",
+        "title": "Oi eu sou a Ana Carolina, Sua Personal trainer",
+        "contents": [
+            {
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo."
+            }
+        ],
+        "image": "/images/banners/personal.webp"
+    },
+    "Plans": {
+        "textColor": "#ffffff",
+        "plans": [
+            {
+                "tile": "Modelo Online",
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo.",
+                "icon": "images/icons/online.webp",
+                "second-image": "/images/banners/grid.webp",
+                "button": {
+                    "title": "Agende sua Aula Gratuita",
+                    "link": "",
+                    "target": "_blank",
+                    "background": "#daa520",
+                    "textColor": "#0c0b29"
+                }
+            },
+            {
+                "tile": "Modelo Online",
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo.",
+                "icon": "images/icons/online.webp",
+                "second-image": "/images/banners/grid.webp",
+                "button": {
+                    "title": "Agende sua Aula Gratuita",
+                    "link": "",
+                    "target": "_blank",
+                    "background": "#daa520",
+                    "textColor": "#0c0b29"
+                }
+            },
+            {
+                "tile": "Modelo Online",
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo.",
+                "icon": "images/icons/online.webp",
+                "second-image": "/images/banners/grid.webp",
+                "button": {
+                    "title": "Agende sua Aula Gratuita",
+                    "link": "",
+                    "target": "_blank",
+                    "background": "#daa520",
+                    "textColor": "#0c0b29"
+                }
+            },
+            {
+                "tile": "Modelo Online",
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo.",
+                "icon": "images/icons/online.webp",
+                "second-image": "/images/banners/grid.webp",
+                "button": {
+                    "title": "Agende sua Aula Gratuita",
+                    "link": "",
+                    "target": "_blank",
+                    "background": "#daa520",
+                    "textColor": "#0c0b29"
+                }
+            },
+            {
+                "tile": "Modelo Online",
+                "content": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai além do ringue. Cada aula é projetada para desenvolver não só a força física, mas também a mentalidade de um verdadeiro lutador. Com [Nome da Professora], você aprenderá as técnicas corretas, ao mesmo tempo em que se desafia a ser a melhor versão de si mesmo.",
+                "icon": "images/icons/online.webp",
+                "second-image": "/images/banners/grid.webp",
+                "button": {
+                    "title": "Agende sua Aula Gratuita",
+                    "link": "",
+                    "target": "_blank",
+                    "background": "#daa520",
+                    "textColor": "#0c0b29"
+                }
+            }
+        ]
+    },
+    "Reviews": {
+        "textColor": "#ffffff",
+        "title": "Nossos alunos",
+        "image": "images/icons/quotation.webp",
+        "comments": [
+            {
+                "name": "Maria Eduarda",
+                "comment": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai "
+            },
+            {
+                "name": "Maria Eduarda",
+                "comment": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai "
+            },
+            {
+                "name": "Maria Eduarda",
+                "comment": "Ana Carolina é uma instrutora de Muay Thai com mais de [X] anos de experiência no mundo das artes marciais. Certificada e apaixonada pelo que faz, ela acredita que o Muay Thai vai "
+            }
+        ]
+    },
+    "Preview": {
+        "textColor": "#ffffff",
+        "title": "Uma previa das nossas aulas",
+        "video": "/images/preview.mp4",
+        "button": {
+            "background": "#daa520",
+            "title": "Agende sua Aula Gratuita",
+            "link": "",
+            "target": "_blank",
+            "textColor": "#0c0b29"
+        }
+    },
+    "Contact":{
+        "textColor":"#ffffff",
+        "title":"Contato",
+        "contacts":[
+            {
+                "type":"phone",
+                "content":"( 24 ) 98133-0445",
+                "link":"",
+                "icon":"images/icons/phone.webp"
+            },
+            {
+                "type":"email",
+                "content":"dellepranestudio@gmail.com",
+                "link":"",
+                "icon":"images/icons/email.webp"
+            },
+            {
+                "type":"local",
+                "content":"Zona Leste - São Paulo/SP",
+                "link":"",
+                "icon":"images/icons/email.webp"
+            }
+        ],
+        "button": {
+            "background": "#daa520",
+            "title": "Mande sua mensagem",
+            "link": "",
+            "target": "_blank",
+            "textColor": "#0c0b29"
+        }
+    }
+}
