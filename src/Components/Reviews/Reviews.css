@@ -1,0 +1,80 @@
+.reviews .reviews-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.reviews .reviews-container h2 {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.reviews .reviews-container p {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.reviews .reviews-container .carousel .content {
+    padding: 30px;
+}
+
+.reviews .reviews-container .carousel .info {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.reviews .reviews-container .carousel .info .nav-button {
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.reviews .reviews-container .carousel .quatation-left {
+    text-align: left;
+}
+
+.reviews .reviews-container .carousel .quatation-right {
+    text-align: right;
+}
+
+.reviews .reviews-container .carousel .quatation-left img {
+    width: 100px;
+}
+
+.reviews .reviews-container .carousel .quatation-right img {
+    width: 100px;
+}
+
+@media (max-width:770px) {
+    .reviews .reviews-container {
+        margin: 30px 0;
+    }
+
+    .reviews .reviews-container h2 {
+        font-size:18px;
+    }
+    
+    .reviews .reviews-container p {
+        font-size:16px;
+    }
+
+    .reviews .reviews-container .carousel .content {
+        padding: 10px;
+    }
+
+    .reviews .reviews-container .carousel .info {
+        gap: 20px;
+    }
+
+    .reviews .reviews-container .carousel .quatation-left img {
+        width: 60px;
+    }
+
+    .reviews .reviews-container .carousel .quatation-right img {
+        width: 60px;
+    }
+}

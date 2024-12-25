@@ -3,6 +3,7 @@ import data from "../data.json"
 import { About } from './Components/About'
 import { Hero } from './Components/Hero/Hero'
 import { Plans } from './Components/Plans'
+import { Reviews } from './Components/Reviews'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
        <Hero/>
        <About/>
        <Plans/>
+       <Reviews/>
       </div>
     </div>
   )

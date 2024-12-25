@@ -115,8 +115,9 @@
     },
     "Reviews": {
         "textColor": "#ffffff",
-        "title": "Nossos alunos",
+        "title": "O que Nossos Alunos Falam",
         "image": "images/icons/quotation.webp",
+        "background":"#5403fa",
         "comments": [
             {
                 "name": "Maria Eduarda",
