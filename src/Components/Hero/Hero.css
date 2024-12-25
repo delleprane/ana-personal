@@ -17,6 +17,13 @@
 
 .hero .hero-container .image {
     margin: 35px 0;
+    width: 300px;
+    height: 300px;
+}
+
+.hero .hero-container .image-woman img {
+    width: 300px;
+    height: 300px;
 }
 
 .hero .hero-container .button {
@@ -34,6 +41,17 @@
 
     .hero .hero-container h2{
         font-size:16px;
+    }
+
+    .hero .hero-container .image {
+        margin: 35px 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero .hero-container .image-woman img {
+        width: 200px;
+        height: 200px;
     }
 }
   

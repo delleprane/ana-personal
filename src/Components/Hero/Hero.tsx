@@ -16,12 +16,11 @@ export function Hero() {
                     style={{
                         backgroundImage: `url(${hero["secondary-image"]})`,
                         backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        width: "300px",
-                        height: "300px"
+                        backgroundPosition: "center"
                     }}
                 >
                     <motion.div
+                    className="image-woman"
                         animate={{
                             scale: [1, 1.1, 1],
                         }}
@@ -32,10 +31,7 @@ export function Hero() {
                         }}>
                         <img src={hero["principla-image"]}
                             alt="Banner mulher malhando"
-                            style={{
-                                width: "300px",
-                                height: "300px"
-                            }} />
+                             />
                     </motion.div>
                 </div>
                 <h2>{hero.subtitle}</h2>
