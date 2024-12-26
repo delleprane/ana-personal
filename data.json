@@ -150,23 +150,24 @@
         "title":"Contato",
         "contacts":[
             {
-                "type":"phone",
-                "content":"( 24 ) 98133-0445",
-                "link":"",
-                "icon":"images/icons/phone.webp"
+                "type": "phone",
+                "content": "(24) 98133-0445",
+                "link": "https://wa.me/5524981330445",
+                "icon": "images/icons/phone.webp"
             },
             {
-                "type":"email",
-                "content":"dellepranestudio@gmail.com",
-                "link":"",
-                "icon":"images/icons/email.webp"
+                "type": "email",
+                "content": "dellepranestudio@gmail.com",
+                "link": "mailto:dellepranestudio@gmail.com",
+                "icon": "images/icons/email.webp"
             },
             {
-                "type":"local",
-                "content":"Zona Leste - São Paulo/SP",
-                "link":"",
-                "icon":"images/icons/email.webp"
+                "type": "local",
+                "content": "Zona Leste - São Paulo/SP",
+                "link": "https://www.google.com/maps/search/Zona+Leste+-+São+Paulo/SP",
+                "icon": "images/icons/local.webp"
             }
+            
         ],
         "button": {
             "background": "#daa520",

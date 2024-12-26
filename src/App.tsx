@@ -5,17 +5,19 @@ import { Hero } from './Components/Hero/Hero'
 import { Plans } from './Components/Plans'
 import { Reviews } from './Components/Reviews'
 import { Preview } from './Components/Preview'
+import { Contact } from './Components/Contact'
 
 function App() {
 
   return (
-    <div className="app" style={{color: data.textColor}}>
+    <div className="app" style={{ color: data.textColor }}>
       <div className="app-container">
-       <Hero/>
-       <About/>
-       <Plans/>
-       <Reviews/>
-       <Preview/>
+        <Hero />
+        <About />
+        <Plans />
+        <Reviews />
+        <Preview />
+        <Contact />
       </div>
     </div>
   )
