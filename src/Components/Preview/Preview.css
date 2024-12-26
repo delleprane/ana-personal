@@ -27,49 +27,4 @@
     .preview .preview-container h2 {
         font-size: 18px;
     }
-
-    /* .preview .preview-container .class video {
-        width: 700px;
-    } */
 }
-
-/* @media (max-width: 426px) {
-    .preview .preview-container {
-        padding: 10px;
-        margin: 20px 0;
-    }
-
-    .preview .preview-container h2 {
-        font-size: 18px;
-    }
-
-    .preview .preview-container .class video {
-        width: 400px;
-    }
-} */
-
-/* @media (max-width: 376px) {
-    .preview .preview-container {
-        padding: 10px;
-        margin: 20px 0;
-    }
-
-    .preview .preview-container h2 {
-        font-size: 18px;
-    }
-
-    .preview .preview-container .class video {
-        width: 340px;
-    }
-}
-
-@media (max-width: 320px) {
-    .preview .preview-container {
-        padding: 10px;
-        margin: 20px 0;
-    }
-
-    .preview .preview-container .class video {
-        width: 300px;
-    }
-} */
