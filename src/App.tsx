@@ -7,6 +7,7 @@ import { Reviews } from './Components/Reviews'
 import { Preview } from './Components/Preview'
 import { Contact } from './Components/Contact'
 import { NavBar } from './Components/NavBar'
+import { SideBar } from './Components/SideBar'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Reviews />
         <Preview />
         <Contact />
+        <SideBar/>
       </div>
     </div>
   )
