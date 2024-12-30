@@ -1,26 +1,32 @@
-import data from "../../../data.json"
+import data from "../../../data.json";
 import { motion } from "framer-motion";
 
-import "./Hero.css"
+import "./Hero.css";
 import { Button } from "../Button";
-
 
 export function Hero() {
     const hero = data.Hero;
 
     return (
-        <section className="hero" id="home">
-            <div className="hero-container" style={{ color: hero["textColor"] }}>
-                <h1>{hero.title}</h1>
-                <div className="image"
+        <section
+            className="hero"
+            id="home"
+            aria-labelledby="hero-title"
+        >
+            <div className="hero-container" style={{ color: hero.textColor }}>
+                <h1 id="hero-title">{hero.title}</h1>
+                <div
+                    className="image"
                     style={{
                         backgroundImage: `url(${hero["secondary-image"]})`,
                         backgroundSize: "cover",
-                        backgroundPosition: "center"
+                        backgroundPosition: "center",
                     }}
+                    role="img"
+                    aria-label="Fundo de academia"
                 >
                     <motion.div
-                    className="image-woman"
+                        className="image-woman"
                         animate={{
                             scale: [1, 1.1, 1],
                         }}
@@ -28,10 +34,12 @@ export function Hero() {
                             duration: 4, // Duração de cada ciclo
                             repeat: Infinity, // Repetição infinita
                             repeatType: "loop", // Tipo de repetição
-                        }}>
-                        <img src={hero["principla-image"]}
-                            alt="Banner mulher malhando"
-                             />
+                        }}
+                    >
+                        <img
+                            src={hero["principla-image"]}
+                            alt="Mulher malhando com roupa esportiva"
+                        />
                     </motion.div>
                 </div>
                 <h2>{hero.subtitle}</h2>
@@ -40,5 +48,5 @@ export function Hero() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

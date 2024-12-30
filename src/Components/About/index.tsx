@@ -1,25 +1,32 @@
-import data from "../../../data.json"
+import data from "../../../data.json";
 
-import "./About.css"
+import "./About.css";
 
 export function About() {
-    const about = data.About;
+  const about = data.About;
 
-    return (
-        <section className="about" id="sobre">
-            <div className="about-container">
-                <h2>{about.title}</h2>
-                <div className="display">
-                    <div className="info">
-                        {about.contents.map((info) => (
-                            <p>{info.content}</p>
-                        ))}
-                    </div>
-                    <div className="image">
-                        <img src={about.image} alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section
+      className="about"
+      id="sobre"
+      aria-labelledby="about-title"
+    >
+      <div className="about-container">
+        <h2 id="about-title">{about.title}</h2>
+        <div className="display">
+          <div className="info">
+            {about.contents.map((info, index) => (
+              <p key={index}>{info.content}</p>
+            ))}
+          </div>
+          <div className="image">
+            <img
+              src={about.image}
+              alt="Imagem representativa sobre Ana Personal Trainer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
