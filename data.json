@@ -1,9 +1,10 @@
 {
-    "background":"#0c0b29",
+    "background": "#0c0b29",
     "textColor": "#ffffff",
     "Menu": {
         "logo": "/images/logos/logo_colored.webp",
         "textColor": "#ffffff",
+        "background": "#272558",
         "navigation": [
             {
                 "name": "Home",
@@ -57,7 +58,7 @@
     },
     "Plans": {
         "textColor": "#ffffff",
-        "title":"Nossos Planos",
+        "title": "Nossos Planos",
         "plans": [
             {
                 "tile": "Modelo Online",
@@ -117,7 +118,7 @@
         "textColor": "#ffffff",
         "title": "O que Nossos Alunos Falam",
         "image": "images/icons/quotation.webp",
-        "background":"#5403fa",
+        "background": "#5403fa",
         "comments": [
             {
                 "name": "Maria Eduarda",
@@ -145,10 +146,10 @@
             "textColor": "#0c0b29"
         }
     },
-    "Contact":{
-        "textColor":"#ffffff",
-        "title":"Contato",
-        "contacts":[
+    "Contact": {
+        "textColor": "#ffffff",
+        "title": "Contato",
+        "contacts": [
             {
                 "type": "phone",
                 "content": "(24) 98133-0445",
@@ -167,7 +168,6 @@
                 "link": "https://www.google.com/maps/search/Zona+Leste+-+São+Paulo/SP",
                 "icon": "images/icons/local.webp"
             }
-            
         ],
         "button": {
             "background": "#daa520",

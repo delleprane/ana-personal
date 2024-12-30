@@ -21,7 +21,7 @@ export function Reviews() {
     };
 
     return (
-        <div className="reviews" style={{ color: reviews.textColor }}>
+        <section className="reviews" style={{ color: reviews.textColor }} id="reviews">
             <div className="reviews-container">
                 <h2>{reviews.title}</h2>
                 <div className="carousel" style={{ backgroundColor: reviews.background, position: "relative" }}>
@@ -55,6 +55,6 @@ export function Reviews() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

@@ -8,7 +8,7 @@ export function Plans() {
     const plans = data.Plans;
 
     return (
-        <div className="plans" style={{ color: plans.textColor }}>
+        <section className="plans" style={{ color: plans.textColor }} id="planos">
             <div className="plans-container">
                 <h2>{plans.title}</h2>
                 <div className="metods">
@@ -29,6 +29,6 @@ export function Plans() {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

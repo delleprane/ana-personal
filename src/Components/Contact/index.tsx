@@ -6,7 +6,7 @@ export function Contact() {
     const contact = data.Contact;
 
     return (
-        <section className="contact" style={{ color: contact.textColor }}>
+        <section className="contact" style={{ color: contact.textColor }} id="contato">
             <div className="contact-container">
                 <h2>{contact.title}</h2>
                 <div className="contacts">

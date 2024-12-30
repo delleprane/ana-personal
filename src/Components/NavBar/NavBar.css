@@ -1,0 +1,123 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navigation .navigation-container .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.navigation .navigation-container .icons .open {
+    align-items: end;
+}
+
+.navigation .navigation-container .line {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+/* Transformações para as linhas quando o menu está aberto */
+.navigation .navigation-container .hamburger.open .line:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 1px 1px;
+
+    align-items: end;
+}
+
+.navigation .navigation-container .hamburger.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.navigation .navigation-container .hamburger.open .line:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 1px 1px;
+}
+
+/* Estilo do menu - ocultar itens por padrão */
+.navigation .navigation-container .itens {
+    display: none;
+    margin: 35px 0;
+}
+
+.itens ul li {
+    list-style: none;
+    text-align: right;
+}
+
+.itens ul li a {
+    font-family: "Anton", serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.navigation .navigation-container .itens.open {
+    display: block;
+}
+
+/* Estilos de responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .navigation .navigation-container {
+        flex-direction: column;
+    }
+
+    .navigation .navigation-container .icons {
+        width: 100%;
+    }
+
+    .navigation .navigation-container .icons .close {
+        align-items: center;
+    }
+
+    .navigation .navigation-container .icons .hamburger {
+        padding: 0 15px;
+    }
+
+    .navigation .navigation-container .icons .open {
+        align-items: center;
+    }
+
+    .navigation .navigation-container .itens ul li {
+        text-align: center;
+    }
+
+    .navigation .navigation-container .logo {
+        margin-bottom: 10px;
+    }
+
+    .navigation .navigation-container .itens {
+        display: none;
+        /* Esconder os itens do menu por padrão */
+        width: 100%;
+    }
+
+    .navigation .navigation-container .navigation .navigation-container .itens.open {
+        display: block;
+    }
+
+    .navigation .navigation-container .itens ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation .navigation-container .itens li {
+        margin: 10px 0;
+    }
+
+    .navigation .navigation-container .itens a {
+        text-decoration: none;
+    }
+}

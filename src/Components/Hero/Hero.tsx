@@ -9,7 +9,7 @@ export function Hero() {
     const hero = data.Hero;
 
     return (
-        <div className="hero">
+        <section className="hero" id="home">
             <div className="hero-container" style={{ color: hero["textColor"] }}>
                 <h1>{hero.title}</h1>
                 <div className="image"
@@ -39,6 +39,6 @@ export function Hero() {
                     <Button button={hero.button} />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -7,7 +7,7 @@ export function Preview() {
     const preview = data.Preview;
 
     return (
-        <section className="preview" style={{ color: preview.textColor }}>
+        <section className="preview" style={{ color: preview.textColor }} id="aula">
             <div className="preview-container">
                 <h2>{preview.title}</h2>
                 <div className="class">

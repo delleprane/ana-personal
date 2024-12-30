@@ -6,7 +6,7 @@ export function About() {
     const about = data.About;
 
     return (
-        <div className="about">
+        <section className="about" id="sobre">
             <div className="about-container">
                 <h2>{about.title}</h2>
                 <div className="display">
@@ -20,6 +20,6 @@ export function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
