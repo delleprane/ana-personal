@@ -7,27 +7,27 @@
         "background": "#272558",
         "navigation": [
             {
-                "name": "Home",
+                "name": "Início",
                 "id": "home"
             },
             {
-                "name": "Sobre",
+                "name": "Quem Sou",
                 "id": "sobre"
             },
             {
-                "name": "Planos",
+                "name": "Nossos Planos",
                 "id": "planos"
             },
             {
-                "name": "Reviews",
+                "name": "Inspire-se",
                 "id": "reviews"
             },
             {
-                "name": "Aula",
+                "name": "Entre no Ritmo",
                 "id": "aula"
             },
             {
-                "name": "Contato",
+                "name": "Fale Conosco",
                 "id": "contato"
             }
         ]
